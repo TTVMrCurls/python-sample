@@ -9,8 +9,6 @@ trigger:
 pool:
   pool:
   name: Default
-  demands:
-   - agent.name -equals DESKTOP-2OJPTUC
    
 strategy:
   matrix:
